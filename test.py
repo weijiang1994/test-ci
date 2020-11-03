@@ -18,6 +18,9 @@ def test2():
 	for i in range(500000):
 		print(i)
 
+@run_time
+def test3():
+	print(time.time())
 
 
 if __name__ == '__main__':
