@@ -14,6 +14,11 @@ def run_time(func):
 def test():
 	time.sleep(3)
 
+@run_time
+def test2():
+	for i in range(500000):
+		print(i)
+
 
 
 if __name__ == '__main__':
