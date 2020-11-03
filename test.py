@@ -1,4 +1,5 @@
 # utf-8
+import os
 import time
 def run_time(func):
 	def wrap(*args, **kwargs):
