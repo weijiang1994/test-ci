@@ -7,3 +7,4 @@ for root, dirs, files in os.walk(base_path):
 		print(root+file)
 	for dir in dirs:
 		print(dir)
+# just test the web socket io
